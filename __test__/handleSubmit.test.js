@@ -1,4 +1,5 @@
 // Import the js file to test
+import "babel-polyfill";
 import {handleSubmit} from '../src/client/js/handleSubmit'
 
 // The describe() function takes two arguments - a string description, and a test suite as a callback function.
